@@ -1,0 +1,12 @@
+{
+  "name": "react-node-shopping-cart",
+  "version": "1.0.0",
+  "description": "A React-Node.js application with a list of shop items and shopping cart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Oleksandr Skrypka",
+  "license": "ISC"
+}
