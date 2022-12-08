@@ -4,9 +4,11 @@
   "description": "A client for react-node-shopping-cart application",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve",
-    "watch": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack --mode development",
+    "build:prod": "webpack -p",
+    "start": "webpack --mode development serve",
+    "start:dev": "webpack --mode development --watch",
+    "start:prod": "webpack -p serve"
   },
   "keywords": [],
   "author": "Oleksandr Skrypka",

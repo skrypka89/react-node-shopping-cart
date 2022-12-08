@@ -9,17 +9,13 @@ const plugins = [
   new MiniCssExtractPlugin(),
   new HtmlWebpackPlugin({ template: './index.html' })
 ];
-let mode = 'development';
 
 if (isDevelopment) {
   // @ts-ignore
   plugins.push(new ReactRefreshWebpackPlugin());
-} else {
-  mode = 'production';
 }
 
 module.exports = {
-  mode,
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
